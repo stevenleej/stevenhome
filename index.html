@@ -1,34 +1,115 @@
 <!DOCTYPE html>
-<link href="https://fonts.googleapis.com/css?family=Hi+Melody&display=swap" rel="stylesheet">
-
-<style>
-  main{
-    font-family: 'Hi Melody', cursive;
-    font-size: 25px;
-  }
-
-</style>
-
-<html>
+<html class="text-muted" style="height: 566px;">
 
 <head>
-    <title> Steven J Lee </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Brand</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=B612">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=B612+Mono">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
 </head>
-<body>
-      <header>Steven Lee</header>
-<main>
-      <p> Hello World! </p>
-    <div></div>
-    <p> hello </p>
-</main>
+
+<body id="page-top">
+    <nav class="navbar navbar-light navbar-expand-md navbar navbar-expand-lg fixed-top" id="mainNav" style="min-width: 100%;">
+        <div class="container"><a class="navbar-brand js-scroll-trigger" href="#" style="padding-right: 0px;">Steven J. Lee</a><button data-toggle="collapse" class="navbar-toggler navbar-toggler-right" data-target="#navbarResponsive" type="button" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation" value="Menu"><i class="fa fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive" style="padding-right: -10px;padding-left: 0px;">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item nav-link js-scroll-trigger" role="presentation"></li>
+                    <li class="nav-item nav-link js-scroll-trigger" role="presentation"></li>
+                    <li class="nav-item nav-link js-scroll-trigger" role="presentation" style="width: 70px;min-width: 0px;color: rgba(0,0,0,0);"><a class="nav-link js-scroll-trigger" href="#contact" style="padding: 0px;width: 46px;padding-left: 54px;padding-top: 0px;">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="masthead" style="background-image:url('intro-bg.jpg');">
+        <div data-aos="fade" class="intro-body" style="background-image: url(&quot;assets/img/mainbg.png&quot;);background-size: auto;background-repeat: round;filter: blur(0px);width: auto;height: 1000px;">
+            <div class="container">
+                <div class="row" data-aos="zoom-out" data-aos-delay="1000" style="height: 780px;background-color: rgba(33,115,166,0.89);margin-top: -138px;padding-bottom: 1px;padding-top: 34px;">
+                    <div class="col-lg-8 mx-auto">
+                        <h1 class="brand-heading" style="font-family: B612, sans-serif;font-size: 72px;height: 220px;">Steven J. Lee</h1>
+                        <p class="intro-text" style="font-size: 25px;font-family: 'B612 Mono', monospace;">Computer Science student at McGill Univeristy</p><a class="btn btn-link btn-circle" role="button" data-aos="zoom-in" data-aos-duration="1500" data-aos-once="true" href="#about"><i class="fa fa-angle-double-down animated"></i></a></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="about" class="content-section text-center" style="background-color: #261f25;">
+        <div class="container">
+            <div class="row">
+                <div class="col"><img src="assets/img/pico.png"></div>
+                <div class="col-lg-8 mx-auto">
+                    <h2 style="font-family: 'B612 Mono', monospace;">About ME</h2>
+                    <p style="font-family: B612, sans-serif;">I am a student at McGill University studying computer science.<br></p>
+                    <p style="font-family: B612, sans-serif;">I enjoy creating games using notable game engines such as Unity and Godot.<br>My current fascinations are fantasy consoles and Lua.&nbsp;<br>I currently have a big interest in learning graphics rasterization</p>
+                    <p style="font-family: B612, sans-serif;">Here are a few technologies I have worked with:<br>C++, C#, C, Java, Javascript, Lua, Python, SQL, NOSQL</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="download" class="download-section content-section text-center" style="background-color: rgb(38,31,37);">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center" style="font-family: 'B612 Mono', monospace;">Projects </h2>
+                <p class="text-center" style="font-family: B612, sans-serif;">Here are a few projects that I have worked on</p>
+            </div>
+            <div class="row projects">
+                <div class="col-sm-6 col-lg-4 item"><img class="img-fluid" src="assets/img/gameoverscreen.png" style="width: 250px;">
+                    <h3 class="name">Dictator simulator</h3>
+                    <p class="description">Simple simulation game involving managing resources as well as number analytics.</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 item"><img class="img-fluid" src="assets/img/dict.png" style="width: 250 px;height: 250px;">
+                    <h3 class="name">Infinite burnside</h3>
+                    <p class="description">Horror game based on the notoriously scary SCP-673, inspired by a univeristy urban legend.</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 item"><img class="img-fluid" src="assets/img/bluband.png" style="width: 250px;height: 250px;">
+                    <h3 class="name">BLUBAND</h3>
+                    <p class="description">Application made as part of the BioDesign Team at McGill University.&nbsp;<br>It was created to give an alternative lower-cost solution for nurses to monitor the blood levels of numerous children at all times.&nbsp;</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 item"><img class="img-fluid" src="assets/img/jetblue.png" style="width: 250px;height: 250px;">
+                    <h3 class="name">JETBLUE-Sentiment Analyzer</h3>
+                    <p class="description">Python Project created for Yale's sentimentatily challenge sponsored by JetBlue. Quantifies cutomer feedback from social media to determine the best ways for the company to improve their services.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="download" class="download-section content-section text-center" style="font-family: 'B612 Mono', monospace;background-color: rgb(38,31,37);"><img src="assets/img/voxel.png" style="height: 325px;width: 380px;margin-right: 34px;margin-left: 46px;margin-bottom: -324px;margin-top: -661px;">
+        <div class="container">
+            <div class="col-lg-8 mx-auto" style="background-color: rgba(38,31,37,0);opacity: 1;margin-bottom: -213px;margin-top: 23px;">
+                <h1></h1>
+                <p></p><button class="btn btn-primary btn-lg border-info btn-default" type="button" style="background-color: #d9d6d2;color: rgb(8,8,8);font-family: 'B612 Mono', monospace;filter: brightness(98%);margin-bottom: 103px;">Download resume</button></div>
+        </div>
+    </section>
+    <section id="contact" class="content-section text-center" style="background-color: #261f25;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2>Get in Touch</h2>
+                    <ul class="list-inline banner-social-buttons">
+                        <li class="list-inline-item">&nbsp;</li>
+                        <li class="list-inline-item">&nbsp;<button class="btn btn-primary btn-lg text-white border-white btn-default" onclick="location.href='https://www.linkedin.com/in/steven-lee-70471a120/'" type="button"><i class="fa fa-linkedin fa-fw"></i><span class="network-name">&nbsp;Linkedin</span></button></li>
+                        <li class="list-inline-item">&nbsp;<button class="btn btn-primary btn-lg text-white border-white btn-default" onclick="location.href='https://github.com/steven-j-lee'" type="button"><i class="fa fa-github fa-fw"></i><span class="network-name">&nbsp;github</span></button></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="map-clean"></div>
+    <footer>
+        <div class="container text-center">
+            <p>Copyright © 2020 Steven J. Lee<br>The views expressed on this site are solely those of the author in his private capacity</p>
+        </div>
+    </footer>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="assets/js/grayscale.js"></script>
 </body>
 
-
 </html>
-
-
-
-
-<!-- 
-    font from: https://www.woowahan.com/?page_id=3985#/fonts
--->   
