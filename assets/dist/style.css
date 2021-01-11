@@ -1,5 +1,7 @@
 body {
-  background-image: url("bg.jpg");
+  background-image: url("backgroundRayCastRender.png");
+      background-size: 100% 100%;
+     background-repeat: no-repeat;
 	color: #000000;
   font-family: 'IBM Plex Mono', monospace;
 	font-size: 20px;
@@ -16,7 +18,7 @@ img {
 
 
 .header { 
-  background-color: #5E6472; 
+  background-color: #232324; 
   color: white;
   font-size: 22px;
   margin: 0%;
@@ -58,11 +60,4 @@ nav a {
 .microgameDemo h1{
   font-size: 16px;
   margin: 1em auto 0 auto; 
-}
-
-footer { 
-  background-color: #5E6472; 
-  color: rgba(255, 255, 255, 0.6); 
-  margin-top: 20%;
-  padding: 2%; 
 }
