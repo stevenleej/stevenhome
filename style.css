@@ -1,7 +1,7 @@
 body {
   background-image: url("backgroundRayCastRender.png");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size:cover;
 	color: #000000;
   font-family: 'IBM Plex Mono', monospace;
 	font-size: 20px;
@@ -9,17 +9,25 @@ body {
   line-height: 1.8;
 }
 
+p{
+ color: white;
+}
+
 img { 
   height: auto; 
   max-width: 100%;
-  margin-left: 15%;
+  margin-left: 30%;
   margin-top:15%;
 }
 
+.block{
+  
+}
 
 .header { 
   background-color: #272829; 
   color: white;
+  width: 100%;
   font-size: 22px;
   margin: 0%;
   margin-bottom: 5%;
@@ -46,6 +54,7 @@ nav a {
 .home h1 { 
   font-size: 28px; 
   margin: 1em auto 0 auto; 
+  color: white;
 }
 
 .home .button { 
@@ -54,11 +63,20 @@ nav a {
 
 .microgameDemo{
   position: relative;
-  left: 35%;
+  left: 30%;
 }
 
 .microgameDemo h1{
-  font-size: 16px;
+  font-size: 20px;
   margin: 1em auto 0 auto; 
 }
 
+.tutorial{
+  position: middle;
+  text-align: center;
+}
+
+.tutorial h1{
+  font-size: 20px;
+  margin: 1em auto 0 auto; 
+}
