@@ -1,0 +1,16 @@
+.Render{
+  padding-top: 20px;
+  display: flex;
+}
+
+.Body {
+  text-align: center;
+  max-width: 100%;
+  display: table;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+

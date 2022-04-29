@@ -1,0 +1,76 @@
+/* Navbar */
+
+.Navbar > Navbar.Brand{
+    display: flex;  
+
+}
+.NavImage{
+    padding-bottom: 6px;
+    padding-right: 1px;
+}
+
+.nav-link{
+    color:#1A1B21;
+}
+
+/* Render Section */
+canvas{
+    width:400px;
+    height:600px;
+}
+/* Introduction */
+.Introduction{
+        background-color: #FFFFFF;;
+        color: #1A1B21;
+        padding-top: 20px;
+}
+    
+.Name{
+
+}
+
+.Introduction > img{
+    padding-top: 30px;
+    size: 40px;
+    border-radius: 9px;
+}
+
+.Introduction > button{ 
+    border: none;
+    color: black;
+    text-align: center;
+    display: inline-flex;
+    font-size: 16px;
+    margin: 4px 10px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+    
+
+/* About */
+.About{
+    background-color: #FFFFFF;;
+    color: #1A1B21;
+}
+
+/* Interests */
+.Interests{
+    background-color: #FFFFFF;
+    color: #1A1B21;
+}
+
+/* Footer */
+.Footer{
+    background-color: #161619;
+    padding: 25px 0px 25px 0px;
+    color: #FFFFFF;
+    align-items: center;
+}
+
+.Footer > FontAwesomeIcon{
+    display: inline-flex;
+    align-self: center;
+    justify-content: space-between;
+
+    
+}
