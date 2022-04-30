@@ -25,8 +25,8 @@ export default function RenderCanvas(){
 
 function Model({ ...props }) {
     const group = useRef()
-    const { nodes, materials } = useGLTF('./../../images/test.gltf')
-    return (
+    const { nodes, materials } = useGLTF('./images/test.gltf')
+    return ( 
       <group ref={group} {...props} dispose={null}>
         <mesh geometry={nodes.item.geometry} material={materials.item} position={[-1.77, 1.48, 2.17]} rotation={[Math.PI / 2, 0, 0]} scale={[0.45, 0.41, 1.45]} />
         <mesh geometry={nodes.grid.geometry} material={materials.grid} position={[0, 0, 0.56]} scale={1.32} />
