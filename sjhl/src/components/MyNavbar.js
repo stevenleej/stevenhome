@@ -11,7 +11,7 @@ export default function MyNavbar(){
         <div>
             <Navbar className="container-fluid" expand="lg">
               <Container>
-              <img src="./../../images/icon.png" width="28" height="32" className="NavImage" alt="pixel logo"/>
+              <img src="./images/icon.png" width="28" height="32" className="NavImage" alt="pixel logo"/>
                 <Navbar.Brand href="#home">
                   Steven Lee
                   </Navbar.Brand>
