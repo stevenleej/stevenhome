@@ -5,13 +5,15 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import navIcon from './../images/icon.png'
+
 
 export default function MyNavbar(){
     return(
         <div>
-            <Navbar className="container-fluid" expand="lg">
+            <Navbar className="container-fluid" expand="lg" fixed="top">
               <Container>
-              <img src="./images/icon.png" width="28" height="32" className="NavImage" alt="pixel logo"/>
+              <img src={navIcon} width="28" height="32" className="NavImage" alt="pixel logo"/>
                 <Navbar.Brand href="#home">
                   Steven Lee
                   </Navbar.Brand>

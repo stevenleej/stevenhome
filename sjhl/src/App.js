@@ -5,7 +5,8 @@ import About from "./components/About"
 import Interests from "./components/Interests"
 import Footer from "./components/Footer"
 import MyNavbar from './components/MyNavbar';
-import RenderCanvas from './components/RenderCanvas';
+import RenderCanvas from './components/RenderCanvas'
+import Skills from './components/Skills'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
@@ -23,12 +24,12 @@ function App() {
          <MyNavbar/>
       </div>
       <div className="Render">
-        <RenderCanvas/>
+        
       </div>
-      <div className="Body">
+      <div className="Body">  
         <Introduction/>
-        <About/>
         <Interests/>
+        <Skills/>
       </div>
       <div className="Bottom">
         <Footer/>

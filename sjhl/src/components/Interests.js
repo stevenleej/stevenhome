@@ -5,12 +5,12 @@ import "./components.css"
 export default function Interests(){
     return(
         <div className="Interests">
-            <h4> Interests</h4>
+            <h4> Interests and Aspirations for the future: </h4>
             <p> 
                 I have a keen interest in Computer Interactions and Computer graphics, specializing my grad electives in those topics.
             </p>
             <p>
-                Throughout the years, I have been working as an independent game developer, having 2 commercial games published, as well as 3 games self-published.
+                I aspire to become a senior software developer leading my own team, designing and implementing scalable systems and software tools.
             </p>
             
         </div>
