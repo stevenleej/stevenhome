@@ -6,7 +6,9 @@ import Nav from 'react-bootstrap/Nav';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import navIcon from './../images/icon.png'
+import resume from './../images/stevenlee.pdf'
 
+/* https://www.notion.so/stevenshome/Projects-fd5e5b973db04be0ae756b365644294b */
 
 export default function MyNavbar(){
     return(
@@ -18,9 +20,16 @@ export default function MyNavbar(){
                   Steven Lee
                   </Navbar.Brand>
                 <Nav className="ml-auto">
-                  <Nav.Link href="#projects">Projects</Nav.Link>
-                  <Nav.Link href="#resume">Resume</Nav.Link>
-                  <Nav.Link href="#aboutme">About Me</Nav.Link>
+                  <Nav.Link href="#projects">
+                    <a href="https://stevenshome.notion.site/Projects-fd5e5b973db04be0ae756b365644294b" target="_blank">
+                      Projects 
+                    </a>
+                  </Nav.Link>
+                  <Nav.Link href="#resume">
+                    <a href={resume} target="_blank">
+                    Resume
+                    </a>
+                  </Nav.Link>
                 </Nav>
               </Container>
             </Navbar>

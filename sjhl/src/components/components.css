@@ -12,6 +12,12 @@
     color:#1A1B21;
 }
 
+.nav-link > a{
+    outline: none;
+    text-decoration: none;
+    color:#1A1B21;
+}
+
 /* Render Section */
 .RenderWindow{
     display: flex;
@@ -40,7 +46,7 @@ canvas{
 .Introduction{
         background-color: #FFFFFF;;
         color: #1A1B21;
-        padding-top: 40px;
+        padding-top: 100px;
 }
 
 .Introduction > img{
@@ -123,7 +129,17 @@ canvas{
 
 /* Skills*/
 .Skills{
-    
+    padding-top: 100px;
+    padding-bottom: 150px;
+    padding-left: 4%;
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.Skills>img{
+    width: 75%;
+    height: 75%;
 }
 
 /* Footer */
@@ -131,11 +147,32 @@ canvas{
     background-color: #161619;
     padding: 25px 0px 25px 0px;
     color: #FFFFFF;
-    align-items: center;
+    text-align: center;
 }
 
-.Footer > FontAwesomeIcon{
-    display: inline-flex;
-    align-self: center;
-    justify-content: space-between;
+.FooterIcons > span{
+    margin: 0 2.5rem 0;
 }
+
+.FooterIcons > span > a{
+    color: white;
+}
+
+.FooterIcons > span > .Github:hover{
+    color: #6e5494;
+}
+
+.FooterIcons > span > .Itch:hover{
+    color: #fa5c5c;
+}
+
+.FooterIcons > span > .Linkedin:hover{
+    color:  #0A66C2;
+}
+
+
+.Copyright{
+    margin-top: 2.5rem;
+    margin-left: 1rem;
+}
+

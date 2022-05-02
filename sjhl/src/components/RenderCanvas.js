@@ -30,7 +30,7 @@ export default function RenderCanvas(){
           </Suspense>
           <OrbitControls
           makeDefault
-          enableZoom={true}
+          enableZoom={false}
           enablePan={true}
           zoomSpeed={0.3}
         />

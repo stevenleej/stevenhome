@@ -10,7 +10,7 @@ export default function Interests(){
                 I have a keen interest in Computer Interactions and Computer graphics, specializing my grad electives in those topics.
             </p>
             <p>
-                I aspire to become a senior software developer leading my own team, designing and implementing scalable systems and software tools.
+                I aspire to become a senior software developer leading my own team, designing and implementing accessible scaling systems and software tools.
             </p>
             
         </div>

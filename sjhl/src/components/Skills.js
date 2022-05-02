@@ -1,5 +1,6 @@
 import React from "react"
 import "./components.css"
+import Image from 'react-bootstrap/Image'
 
 /* assets */
 import skillsTable from './../images/stack.svg'
@@ -7,8 +8,7 @@ import skillsTable from './../images/stack.svg'
 export default function Skills(){
     return(
         <div className="Skills">
-            <h4> Skills</h4>
-            <skillsTable/>
+            <Image src={skillsTable} alt="my stack and languages" fluid={true}/>
         </div>
     )
 }   

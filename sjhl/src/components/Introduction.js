@@ -12,7 +12,7 @@ export default function Introduction(){
     return(
         <div className="Introduction">
             <div className="IntroDesc">
-                <img src={dp} alt="Picture of me" className='img-fluid rounded' width="300px" height="300px"/>
+                <Image src={dp} alt="Picture of me" className='img-fluid rounded' width="300px" height="300px"/>
                 <p>Hi! My name is Steven and I am a computer programmer who recently graduated from <b>McGill University</b> with a <b>bachelor's degree in computer science!</b>
                     I was recently a <b>Unity developer</b> at the <b>National Research Council of Canada</b>, assisting in the creation of a mobile game on the software side. 
                     <br></br>
