@@ -16,8 +16,8 @@ export default function Introduction(){
                 <p>Hi! My name is Steven and I am a computer programmer who recently graduated from <b>McGill University</b> with a <b>bachelor's degree in computer science!</b>
                     I was recently a <b>Unity developer</b> at the <b>National Research Council of Canada</b>, assisting in the creation of a mobile game on the software side. 
                     <br></br>
-                    During my time in undergrad, I created a with the <b>McGill Library</b> game team, using Javascript to create a VR application, and Unity to develop a trivia game.
-                    I also had the opportunity to develop visual scientific tools to assist in data analytics, and performed research in Topic Modeling (NLP) at the McGill ROAAr, where I classified common key themes from 200 years of Victorian newspaper archives, using OCR Tesseract to collect textual information. 
+                    During my time in undergrad, I helped create a game with the <b>McGill Library</b> game team, using Javascript to create a VR application, and Unity to develop a trivia game.
+                    I also had the opportunity to develop visual scientific tools to assist in data analytics, and perform research in Topic Modeling (NLP) at the McGill ROAAr, where I classified common key themes from 200 years of Victorian newspaper archives, using OCR Tesseract to collect physical textual information. 
                     <br></br>
                     My passions are learning new technologies and expressing my creativity through code. 
                     I aspire to create games that are accessible and can be enjoyed by all ages and groups.
