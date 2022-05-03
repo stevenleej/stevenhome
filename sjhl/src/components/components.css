@@ -46,7 +46,7 @@ canvas{
 .Introduction{
         background-color: #FFFFFF;;
         color: #1A1B21;
-        padding-top: 100px;
+        padding-top: 120px;
 }
 
 .Introduction > img{
@@ -70,13 +70,13 @@ canvas{
 .IntroDesc{
     display: grid;
     padding: 2rem;
-    grid-template-columns: 300px 1fr;
+    grid-template-columns: 300px 4fr;
     gap: 1.5rem;
     align-items: center;
     text-align: left;
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
-    font: 500 75%/1.5 system-ui;
+    font-size: 16px;
 }
 
 .Email > a{
