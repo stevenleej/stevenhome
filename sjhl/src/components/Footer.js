@@ -9,17 +9,17 @@ export default function Footer(){
                 <div className="FooterIcons">
                     <span>
                         <a href="https://github.com/stevenleej" className="Github" target="_blank">
-                            <FontAwesomeIcon icon="fa-brands fa-github" size="3x"/>
+                            <FontAwesomeIcon icon="fa-brands fa-github" size="2x"/>
                         </a>
                     </span>
                     <span>
                         <a href="https://green-tea.itch.io/" className="Itch" target="_blank">
-                            <FontAwesomeIcon icon="fa-brands fa-itch-io" size="3x"/>
+                            <FontAwesomeIcon icon="fa-brands fa-itch-io" size="2x"/>
                         </a>
                     </span>
                     <span>
                         <a href="https://www.linkedin.com/in/stevenleej/" className="Linkedin" target="_blank">
-                            <FontAwesomeIcon icon="fa-brands fa-linkedin" size="3x"/>
+                            <FontAwesomeIcon icon="fa-brands fa-linkedin" size="2x"/>
                         </a>
                     </span>
                 </div>
