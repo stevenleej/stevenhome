@@ -26,12 +26,12 @@ function App() {
       <div className="Top">
          <MyNavbar/>
       </div>  
-      <div className="Render">
-        <RenderCanvas/>
-      </div>
+      
       <div className="Body">  
         <Introduction/>
         <Interests/>
+      </div>
+      <div className = "Skills">
         <Skills/>
       </div>
       <div className="Bottom">

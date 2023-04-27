@@ -7,12 +7,9 @@ export default function Interests(){
         <div className="Interests">
             <h4> Interests and Aspirations for the future: </h4>
             <p> 
-                I have a keen interest in Computer Interactions and Computer graphics, specializing my grad electives in those topics.
+            <a href="https://github.com/stevenleej"> Projects </a>
             </p>
-            <p>
-                I aspire to become a senior software developer leading my own team, designing and implementing accessible scaling systems and software tools.
-            </p>
-            
+            <a href="https://medium.com/@greenteamochi"> Medium blog</a>            
         </div>
     )
 }   

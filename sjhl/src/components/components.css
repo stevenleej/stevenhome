@@ -42,11 +42,17 @@ canvas{
     height:600px;
 }
 
+body{
+    background-color: #f5f7f2;
+    background-image: radial-gradient(#bcbcb5 0.9500000000000001px, #f5f7f2 0.9500000000000001px);
+    background-size: 19px 19px;
+}
+
 /* Introduction */
 .Introduction{
-        background-color: #FFFFFF;;
         color: #1A1B21;
         padding-top: 120px;
+        background-color: #f5f7f2;
 }
 
 .Introduction > img{
@@ -65,7 +71,6 @@ canvas{
     justify-content: space-between;
     cursor: pointer;
 }
-    
 
 .IntroDesc{
     display: grid;
@@ -79,10 +84,16 @@ canvas{
     font-size: 16px;
 }
 
+.jobTitle{
+    font-size: 18px;
+        
+}
+
 .Email > a{
     outline: none;
     text-decoration: none;
     padding: 2px 1px 0;
+    font-size: 18px;
 }
 
 .Email > a:link {
@@ -112,7 +123,7 @@ canvas{
 
 /* Interests */
 .Interests{
-    background-color: #FFFFFF;
+    background-color: #f5f7f2;
     color: #1A1B21;
     padding-top: 120px;
     max-width: 800px;
@@ -129,10 +140,9 @@ canvas{
 
 /* Skills*/
 .Skills{
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 450px;
-    padding-left: 4%;
-    display: table;
+    padding-left: 8%; 
     margin-right: auto;
     margin-left: auto;
 }
@@ -140,6 +150,32 @@ canvas{
 .Skills>img{
     width: 75%;
     height: 75%;
+}
+
+.SkillsSections{
+    display: inline-flexbox;
+}
+
+.ProgLang{
+    padding-right: 1%;
+}
+
+.ProgLang >hr{
+    width: 50%;
+    text-align: left;
+    margin-left: 0;
+}
+
+.TechStack >hr{
+    width: 50%;
+    text-align: left;
+    margin-left: 0;
+}
+
+.Certs >hr{
+    width: 50%;
+    text-align: left;
+    margin-left: 0;
 }
 
 /* Footer */
@@ -181,4 +217,5 @@ canvas{
     margin-top: 0.5rem;
     margin-left: 1rem;
 }
+
 

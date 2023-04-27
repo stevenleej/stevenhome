@@ -6,7 +6,7 @@ import Image from 'react-bootstrap/Image'
 import Button from 'react-bootstrap/Button';
 
 /* Assets */
-import dp from "./../images/sl.jpg"
+import dp from "./../images/stevenme.jpeg"
 
 export default function Introduction(){
     return(
@@ -15,22 +15,22 @@ export default function Introduction(){
                 <Image src={dp} alt="Picture of me" className='img-fluid rounded' width="300px" height="300px"/>
                 <p>
                     <br></br>
-                    Hi! My name is Steven and I am a computer programmer who recently graduated from <b>McGill University</b> with a <b>bachelor's degree in computer science! </b>
-                     I was recently a <b>Unity developer</b> at the <b>National Research Council of Canada</b>, assisting in the creation of a mobile game on the software side. 
-                    <br></br>
-                    During my time in undergrad, I helped create a game with the <b>McGill Library</b> game team, using Javascript to create a VR application, and Unity to develop a trivia game.
-                    I also had the opportunity to develop visual scientific tools to assist in data analytics, and perform research in Topic Modeling (NLP) at the McGill ROAAr, where I classified common key themes from 200 years of Victorian newspaper archives, using OCR Tesseract to collect physical textual information. 
-                    <br></br>
-                    My passions are learning new technologies and expressing my creativity through code. 
-                    I aspire to create games that are accessible and can be enjoyed by all ages and groups.
+                    <b>Hi! My name is Steven and <i>I currently work in Cloud engineering at Amazon Web Services.</i></b>
+                    <br></br><br></br>
+                    I have built a solid foundation of the Cloud, especially in AWS Serverless technologies, and software development through my work and education.
+                    I leverage my strong skills in debugging and advanced troubleshooting with my foundation in programming to provide solutions for my clients.
+                    <br></br><br></br>
+                    My passions are learning new technologies and disovering new solutions to things. 
+                    In my free time, I love to learn new technologies and develop prototype games and applications with the AWS Cloud.
+                    <br></br><br></br>
                     I also love to teach and inspire others, having mentored in numerous game jams to help grow the next generation of young developers.
                 </p>
             </div> 
             <p className="jobTitle"> 
-                <b> Software Developer </b>- <b>Computer Scientist</b> -<b> Unity Developer </b>
+                <b> Cloud Engineering </b>- <b>Computer Scientist</b> -<b> Programmer </b>
             </p>
             <Button className="Email" variant="outline-success"> 
-                <a href = "mailto: lee.j.steven@gmail.com"> Work with me! </a>
+                <a href = "mailto: lee.j.steven@gmail.com"> Contact me through email ! </a>
             </Button>
         </div>
     )
