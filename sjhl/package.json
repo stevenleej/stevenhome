@@ -1,7 +1,7 @@
 {
   "name": "sjhl",
   "version": "0.1.0",
-  "homepage": ".",
+  "homepage": "https://https://stevenleej.github.io/stevenhome",
   "private": true,
   "dependencies": {
     "@chakra-ui/react": "^1.8.8",
